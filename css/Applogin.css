@@ -1,0 +1,1176 @@
+/*--------------------------------------------------------------------*/
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-style: italic;
+    src: url(../Open_Sans/OpenSans-BoldItalic.ttf); 
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-style: normal;
+    src: url(../Open_Sans/OpenSans-Bold.ttf); 
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-style: italic;
+    src: url(../Open_Sans/OpenSans-ExtraBoldItalic.ttf); 
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-style: normal;
+    src: url(../Open_Sans/OpenSans-ExtraBold.ttf); 
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: italic;
+    src: url(../Open_Sans/OpenSans-Italic.ttf); 
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    src: url(../Open_Sans/OpenSans-Regular.ttf); 
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-style: italic;
+    src: url(../Open_Sans/OpenSans-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-style: normal;
+    src: url(../Open_Sans/OpenSans-Light.ttf); 
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: italic;
+    src: url(../Open_Sans/OpenSans-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+    src: url(../Open_Sans/OpenSans-SemiBold.ttf); 
+}
+
+/*--------------------------------------------------------------------*/
+.app-login{
+   font-family: 'Open Sans', sans-serif;
+}
+/*Carousel styling*/
+.app-login .carousel-indicators li{
+	border:1px solid #fff;
+	width: 70px;
+	height: 23px;
+	border-radius: 60px;
+}
+.app-login .carousel-indicators .active{
+	background-color: #fff;
+	width: 100px;
+}
+.app-login .carousel-indicators {
+	margin-left: 0;
+	left: 30px;
+	width:auto;
+}
+.app-login  .carousel-caption{
+	font-size: 36px;
+	line-height: 50px;
+	color: #fff;
+	position: absolute;
+	bottom: 85px;
+	left: 30px;
+	right: auto;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+	padding:0 45px 0 0;
+	max-width: 430px;
+}
+.app-login .item {
+	height: 100vh;
+}
+.carousel_img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.app-login{
+	overflow: hidden;
+}
+
+
+/*Row gutters*/
+.row.gutter-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+.row.gutter-0 > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row.gutter-5 {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.row.gutter-5 > [class*='col-'] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/*login form*/
+.app-login .normal-text{
+	font-size: 13px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+.app-login .app-block .login-form {
+	width: 100%;
+	display: flex;
+	padding: 40px;
+	height: calc(100vh - 76px);
+	align-items: center;
+}
+.app-login .app-content{
+	background-image: linear-gradient(to right, #fff, #e8eeff);
+    display: block;
+    width: 100%;
+}
+.app-login-form {
+    max-width: 360px;
+    width: 100%;
+    padding: 0 0 60px;
+}
+.app-login-form .login-logo{
+	margin-bottom: 20px;
+	max-height: 65px;
+	max-width: 165px;
+}
+
+.app-login-form .login-control{
+	height: 55px;
+	width:100%;
+	border: 1px solid #C9C9C9;
+	margin-bottom: 20px;
+	padding: 0 15px;
+	font-size: 16px;
+}
+.app-login-form .lang-menu{
+	position: relative;
+	margin-bottom: 20px;
+}
+.app-login-form .lang-menu select{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: #fff;
+    margin-bottom: 0;
+   	height: 55px;
+    width: 100%;
+    border: 1px solid #C9C9C9;
+    padding: 0 15px;
+}
+.app-login-form .lang-menu select:focus{
+	outline: none;
+}
+.app-login-form .lang-menu:after {
+    font-family: "Material Icons";
+    content: "\e5cf";
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    font-size: 30px;
+    z-index: 0;
+    line-height: 23px;
+    height: 23px;
+    margin: auto;
+}
+
+
+.app-login-form input:focus{
+	outline: none;
+}
+.app-login-form .login-control::placeholder{
+	color: #393939;
+}
+.app-login-form .main-title{
+	font-weight: 700;
+	font-size: 23px;
+	margin-bottom: 5px;
+}
+.app-login-form .sub-title{
+	font-size: 19px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.app-login-form .login-btn {
+    padding: 10px;
+    box-shadow: none;
+    background-color: #3477C5;
+    border: 1px solid #C9C9C9;
+    color: #fff;
+    display: block;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 600;
+    box-shadow: 0px 3px 20px rgb(0 0 0 / 16%);
+}
+.app-login-form .login-btn.cancel{
+	background-color: #000;
+}
+
+.app-login-form .forget-pass{
+	font-weight: 400;
+	font-size: 15px;
+	color: #3477C5;
+	display: block;
+	margin-bottom: 20px;
+}
+.app-login-form .forget-pass:hover{
+	text-decoration: none;
+}
+
+/*news feed style*/
+
+.news-feed-block {
+    padding: 25px;
+    height: calc(100vh - 76px);
+    overflow-y: auto;
+    max-width: 450px;
+    margin-left: auto;
+}
+.news-feed-block .news-mian-head{
+  font-weight: 300;
+  font-size: 22px;
+  margin-bottom: 17px;
+}
+.news-feed-block .news-data {
+    background: #fff;
+    padding: 25px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px rgb(10 10 10 / 20%);
+    border: 1px solid #D4DBDC;
+    margin-bottom: 20px;
+
+}
+.news-feed-block .news-data .news-title{
+	margin-bottom: 10px;
+}
+.news-feed-block .news-data .news-title .ntitle{
+	color: #1F5CA4;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	margin: 0 0 8px;
+	position: relative;
+	display: inline-block;    
+	/*padding-right: 25px;*/
+}
+.news-feed-block .news-data .news-title .ntitle:after{
+	font-family: 'Material Icons';
+	font-size: 16px;
+	position: absolute;
+	padding-left: 5px;
+}
+.news-feed-block .news-data .news-title .ntitle.done:after{
+	content: "check_circle";
+	color: #34C564;
+}
+.news-feed-block .news-data .news-title .ntitle.in-progress:after{
+	content: "access_time";
+	color: #C7C7C7;
+}
+
+.news-feed-block .news-title .material-icons{
+	padding-left: 10px;
+	font-size: 16px;
+}
+.material-icons.green{
+	color: #34C564;
+}
+.material-icons.light{
+	color: #C7C7C7;
+}
+.news-feed-block .news-title .news-time-date{
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+	display: flex;
+	color: #50823B;
+	font-size: 13px;
+	font-weight: 400;
+}
+.news-feed-block .news-title .news-time-date li:not(:last-child){
+	border-right: 1px solid #C4C4C4;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+.news-feed-block .news-data-list{
+	margin-top: 15px;
+}
+.news-feed-block .news-data-list .news-sub-title{
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 19px;
+	color: #000;
+	margin-bottom: 5px;
+}
+.news-feed-block .news-data-list ul li{
+	list-style: circle;
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+.news-feed-block .news-data-image{
+	width: 100%;
+	max-width: 100%;
+}
+
+/*footer style*/
+
+.app-footer{
+	padding: 15px 20px;
+	background-color: transparent;
+}
+.app-footer > .row{
+	display: flex;
+	align-items: center;
+}
+.app-footer .footer-link{
+	display: block;
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+	text-align: right;
+}
+.app-footer .footer-link li{
+	display: inline-block;
+	margin:0 10px;
+	font-size: 13px;
+	font-weight: 400;
+	
+}
+.app-footer .footer-link li a{
+	color: #4260C2;
+}
+.app-footer .footer-link li:not(:last-child) a{
+	color: #707070;
+}
+.app-footer .copy-right{
+	color: #393939;
+	font-size: 13px;
+	font-weight: 400;
+}
+img.login-footer-logo{
+	max-width: 155px;
+	max-height: 30px;
+}
+.app-footer .digicert {
+    text-align: right;
+}
+.app-footer .digicert img {
+    max-width: 80px;
+    position: relative;
+}
+
+/*style without news feed*/
+.without-news .app-footer > .row{
+	display: flex;
+	align-items: center;
+}
+.without-news .row.gutter-0 > [class*='col-']{
+	width: 50%;
+}
+.without-news .app-footer .row > [class*='col-']:first-child{
+	width: 80%;
+}
+.without-news .app-footer .row > [class*='col-']:last-child{
+	width: 20%;
+}
+.without-news .app-footer .row > [class*='col-']:nth-child(2){
+	width: 100%;
+	order:1;
+	text-align: left;
+}
+.without-news .row [class*='col-'].app-block{
+	width: 100%;
+}
+.without-news .app-login-form{
+	margin: auto;
+}
+.without-news.app-login .app-content{
+	background-image: none;
+}
+.without-news.app-login .app-block .login-form{
+	height: calc(100vh - 100px);
+}
+.without-news .app-footer{
+	text-align: right;
+	padding: 10px 20px;
+}
+.without-news  .app-footer .copy-right,
+.without-news  .app-footer .footer-link{
+	text-align: left;
+}
+.without-news  .app-footer .footer-link{
+	padding-bottom: 10px;
+}
+.without-news  .app-footer > .row{
+	display: flex;
+	flex-wrap: wrap-reverse;
+}
+.without-news  .app-footer .footer-link li:first-child{
+	margin-left: 0;
+}
+
+.with-icon{
+	position: relative;
+}
+.with-icon .login-control{
+	padding: 0 10px 0 50px;
+}
+.with-icon:before {
+    font-family: 'Material Icons';
+    font-size: 26px;
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    color: #b0b1b3;
+}
+.with-icon.email:before{
+	content: "mail_outline";
+}
+.with-icon.lock:before{
+	content: "lock";
+}
+.with-icon.lock_outline:before{
+	content: "lock_outline";
+}
+.with-icon.username:before{
+	content: "account_circle";
+}
+.with-icon.verifed-user:before{
+	content: "verified_user";
+}
+
+/*Loggedout*/
+.app-login.app_logged_out {
+    height: 100vh;
+    justify-content: center;
+    padding: 0 20px 0;
+    display:flex;
+    align-items:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.app-login.app_logged_out:before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:0;
+	bottom: 0;
+	background-color: rgb(0 0 0 / 37%);
+}
+.app_logged_out .error_logged_out{
+	max-width: 700px;
+	margin:auto;
+	font-size: 15px;
+	box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+	background-color: #fff;
+	border-radius: 4px;
+	position: relative;
+}
+.app_logged_out .error_header {
+    background-color: #3477C5;
+    color: #fff;
+    padding: 15px;
+    font-size: 17px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.app_logged_out .error_body{
+	padding: 15px 15px 20px; 
+	font-size: 15px;
+	border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.app_logged_out .error_warning {
+	margin-bottom: 30px;
+	margin-top: 5px;
+	font-size: 15px;
+	line-height: 20px;
+	position: relative;
+	padding-left: 50px;
+}
+.app_logged_out .error_warning:before{
+	content: "\e002";
+	font-family: "Material Icons";
+	color: #EFCB39;
+	font-size: 40px;
+	position: absolute;
+	left: 0;
+	top:0;
+	bottom: 0;
+	margin:auto;
+	line-height: 40px;
+	height: 40px;
+}
+.app_logged_out .error_message{
+	font-size: 15px;
+	line-height: 20px;
+}
+.app_logged_out .error_title {
+    color: #E14444;
+    margin-bottom: 10px;
+    font-size: 17px;
+    line-height: 23px;
+}
+.app_logged_out .logo_wrap{
+	text-align: center;
+	padding: 20px;
+	border-top: 1px solid #eee;
+}
+.app_logged_out .logo_wrap img{
+	max-width: 160px;
+	max-height: 50px;
+}
+
+.app_logged_out ol{
+    padding-left: 15px;
+}
+.app_logged_out .button-wrapper {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.app_logged_out .submitbtn, .app_logged_out .cancelbtn {
+    padding: 10px;
+    box-shadow: none;
+    color: #fff;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: 0px 3px 20px rgb(0 0 0 / 16%);
+    outline:none !important;
+    margin:20px 10px 5px; 
+}
+.app_logged_out .submitbtn{
+    background-color: #e86161;
+    border: 1px solid #e86161;
+}
+.app_logged_out .cancelbtn{
+    background-color: #3477C5;
+    border: 1px solid #3477C5;
+}
+
+
+
+
+/* STATIC SUCCESS */
+
+.success {
+    background: #30b378;
+    color: white;
+    border-radius: 0;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px 10px 10px;
+    margin: 0;
+    font-weight: 400;
+    animation-duration: 10s;
+    margin: 0 0 15px 0;
+    display: flex;
+}
+.success:before {
+    font-family: "Material Icons";
+    content: "\E86C";
+    font-size: 22px;
+    line-height: 22px;
+    margin-right: 10px;
+    position: relative;
+    top: 0;
+}
+
+.ValidationError {
+	background: #ffe1e1;
+	border: 1px dashed #e4aaaa !important;
+	position: relative;
+	color: #d02020;
+	padding: 5px 0;
+	margin-bottom: 15px;
+	left: 10px;
+}
+.ValidationError ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+}
+.ValidationError ul li{
+	position: relative;
+	padding-left: 40px;
+	font-size: 14px;
+	margin: 3px 0;
+	left: 10px;
+	align-items: center;
+}
+	.ValidationError ul li:before {
+		font-family: "Material Icons";
+		content: "\E002";
+		font-size: 20px;
+		line-height: 20px;
+		height: 20px;
+		display: inline-block;
+		position: absolute;
+		left: 10px;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		color: #bf2020 !important;
+	}
+.errorMsg {
+    background: #f17c69;
+    color: white;
+    border-radius: 0;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px 10px 10px;
+    margin: 0;
+    font-weight: 400;
+    animation-duration: 10s;
+    margin: 0 0 15px 0;
+    display: flex;
+}
+.errorMsg:before{
+    font-family: "Material Icons";
+    content: "\E001";
+    font-size: 22px;
+    line-height: 22px;
+    margin-right: 10px;
+    position: relative;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+.warning {
+    background: #e6a95a;
+    color: white;
+    border-radius: 0;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px 10px 10px;
+    margin: 0;
+    font-weight: 400;
+    animation-duration: 10s;
+    margin: 0 0 15px 0;
+    display: flex;
+}
+.warning:before {
+    font-family: "Material Icons";
+    content: "\E002";
+    font-size: 22px;
+    line-height: 22px;
+    margin-right: 10px;
+    position: relative;
+    top: 0;
+}
+
+
+.info {
+    background: #4c87e2;
+    color: white;
+    border-radius: 0;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px 10px 10px;
+    margin: 0;
+    font-weight: 400;
+    animation-duration: 10s;
+    margin: 0 0 15px 0;
+    display: flex;
+}
+.info:before {
+    font-family: "Material Icons";
+    content: "\E88F";
+    font-size: 22px;
+    line-height: 22px;
+    margin-right: 10px;
+    position: relative;
+    top: 0;
+}
+
+.link_data{
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	bottom: 9px;
+}
+
+/*media query*/
+
+@media only screen and (min-width:1600px){
+	.app-footer .copy-right,
+	.app-footer .footer-link li{
+		font-size: 15px;
+	}
+	.app-login .app-block .login-form{
+		padding-left: 60px;
+	}
+	.without-news.app-login .app-block .login-form {
+	    height: calc(100vh - 100px);
+	}
+} 
+@media only screen and (max-width:1640px){
+	.errorMsg,
+	.success,
+	.warning,
+	.info{
+		font-size: 13px;
+		padding: 7px 20px 7px 10px;
+	}
+	.errorMsg:before,
+	.info:before,
+	.warning:before,
+	.success:before {
+	    font-size: 17px;
+	    line-height: 19px;
+	}
+	.ValidationError{
+		padding: 3px 0;
+	}
+	.ValidationError ul li:before{
+		font-size: 17px;
+	    line-height: 17px;
+	    height: 17px;
+	}
+	.ValidationError ul li{
+		font-size: 13px;
+		padding-left: 36px;
+	}
+	.link_data{
+		font-size: 13px;
+		bottom: 7px;
+	}
+}
+@media only screen and (max-width:1600px){
+	
+	.app-login .carousel-caption{
+		font-size: 30px;
+    	line-height: 38px;
+    	left: 20px;
+    	bottom: 62px;
+    	padding-right: 30px;
+	}
+	.app-login .carousel-indicators{
+		left: 20px;
+	}
+	.app-login .carousel-indicators li {
+	    width: 40px;
+	    height: 12px;
+	}
+	.app-login .carousel-indicators .active{
+		width:60px;
+	}
+	.app-login-form .login-btn{
+		font-size: 14px;
+	}
+	.app-login-form .main-title{
+		font-size: 21px;
+	}
+	.app-login-form .sub-title{
+		font-size: 17px;
+		margin-bottom: 15px;
+	}
+	.news-feed-block .news-data-list .news-sub-title,
+	.news-feed-block .news-data-list ul li{
+		font-size: 13px;
+	}
+	.news-feed-block .news-data{
+		padding: 15px;
+	}
+	.news-feed-block .news-mian-head{
+		font-size: 21px;
+	}
+	.app-login-form .lang-menu select{
+		height: 50px;
+	}
+	.app-login-form .login-btn{
+		padding: 8px 10px;
+	}
+	.app-login-form .login-control{
+		font-size: 14px;
+		height: 50px;
+	}
+	.app-login-form .forget-pass{
+		font-size: 14px;
+	}
+	.app-login-form .lang-menu,
+	.app-login-form .login-control,
+	.app-login-form .forget-pass{
+		margin-bottom: 15px;
+	}
+	.with-icon:before{
+		font-size: 23px;
+		top:9px;
+	}
+	.with-icon .login-control{
+		padding: 0 10px 0 45px;
+	}
+	.news-feed-block .news-data .news-title .ntitle{
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.app_logged_out .error_logged_out{
+		font-size: 14px;
+	}
+	.app-login-form{
+		max-width: 300px;
+	}
+	.news-feed-block{
+		max-width: 400px;
+		margin-left: auto;
+	}
+
+	/*logout page*/
+	.app_logged_out .error_title,
+	.app_logged_out .error_header{
+		font-size: 16px;
+	}
+
+	.app_logged_out .error_warning,
+	.app_logged_out .error_message{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width:1440px){
+	.app-footer .footer-link li,
+	.app-footer .copy-right{
+		font-size: 12px;
+	}
+	.app-login .carousel-caption{
+		font-size: 27px;
+		line-height: 33px;
+	}
+}
+@media only screen and (max-width:1024px){
+	
+	.app-footer .copy-right,
+	.app-footer .footer-link li{
+		font-size: 12px;
+	}
+	.news-feed-block{
+		padding: 25px 10px;
+	}
+
+	/*with news*/
+	.app-login:not(.without-news) .hidden-on-small{
+		display: none;
+	}
+	.app-login:not(.without-news) .full-on-small{
+		width:100%;
+	}
+	.app-login-form{
+		padding-bottom: 0;
+	}
+	/*without news*/
+	.without-news.app-login .app-block .login-form {
+	    height: calc(100vh - 96px);
+	}
+}
+@media only screen and (max-width:992px){
+	.errorMsg:before,
+	.success:before,
+	.warning:before{
+		font-size: 18px;
+    	line-height: 18px;
+	}
+	.errorMsg,.success,.warning{
+		font-size: 13px;
+		padding: 8px 20px 8px 10px;
+	}
+	.ValidationError ul li{
+		font-size: 13px;
+		padding-left: 36px;
+	}
+	.ValidationError ul li:before{
+		font-size: 18px;
+	    line-height: 18px;
+	    height: 18px;
+	}
+
+	/*.app-login .app-block .login-form{
+		display: block;
+	}*/
+	.hidden-on-small{
+		display: none;
+	}
+	.app-login-form .main-title{
+		font-size: 20px;
+	}
+	.app-login-form .sub-title{
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	.app-login-form .login-control{
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+	.app-login-form .login-btn {
+	    font-size: 13px;
+	}
+	.app-login-form .login-control,
+	.app-login-form .lang-menu select{
+		height: 45px;
+	}
+	.with-icon:before{
+		font-size: 24px;
+		top:5px;
+	}
+	.app-login .app-block .login-form{
+		height: auto;
+	}
+	.app-login-form{
+		margin: auto;
+		padding: 0;
+		max-width: 360px;
+	}
+	.news-feed-block{
+		height: auto;
+		margin: auto;
+	}
+	.app-footer > .row{
+		flex-wrap: wrap;
+	}
+	.app-footer .copy-right{
+		margin-bottom: 10px;
+	}
+	img.login-footer-logo{
+		margin: 10px auto;
+	}
+	.app-footer .footer-link,
+	.without-news .app-footer .footer-link{
+		text-align: center;
+	}
+	.without-news .row.gutter-0 > [class*='col-']{
+		width: 100%;  
+	}
+	.without-news .app-footer .row > [class*='col-']:first-child {
+	    width: 100%;
+	}
+	.app-footer .row > [class*='col-']:last-child,
+	.app-footer .row > [class*='col-']:nth-child(2){
+		width: 50% !important;
+		order: initial !important;
+	}
+	.without-news img.login-footer-logo{
+		top:0;
+	}
+	.without-news .app-footer .copy-right{
+		margin-top: 10px;
+	}
+
+	.without-news .app-footer .footer-link {
+	    margin-bottom: 0;
+	    border-bottom: none;
+	    padding-bottom: 0;
+	}
+	.app-login .app-content{
+		background-image: none;
+	}
+	.without-news.app-login .app-block .login-form{
+		height: calc(100vh - 170px);
+	}
+	.news-feed-block .news-mian-head {
+	    font-size: 18px;
+	}
+
+	.app_logged_out .error_warning:before{
+		font-size: 35px;
+		height: 35px;
+		line-height: 35px;
+	}
+	.app_logged_out .error_warning{
+		margin-bottom: 20px;
+	}
+	.app_logged_out .error_logged_out {
+	    font-size: 13px;
+	}
+	.app_logged_out .error_title, 
+	.app_logged_out .error_header {
+	    font-size: 15px;
+	}
+	.app_logged_out .error_warning, 
+	.app_logged_out .error_message {
+	    font-size: 13px;
+	}
+    .app_logged_out .button-wrapper{
+        display:block;
+    }
+    .app_logged_out input:first-child{
+        margin-top:10px;
+    }
+    .app_logged_out .submitbtn, .app_logged_out .cancelbtn{
+        margin:0 0 5px;
+        width:100% !important;
+    }
+}
+@media only screen and (max-width:768px){
+	.without-news.app-login .app-block .login-form {
+	    height: calc(100vh - 105px);
+	}
+	.app_logged_out .error_warning, 
+	.app_logged_out .error_message {
+	    font-size: 13px;
+	}
+	.app_logged_out .error_title, 
+	.app_logged_out .error_header {
+	    font-size: 15px;
+	}
+	.app_logged_out .error_header{
+		padding: 10px 15px;
+	}
+}
+
+@media only screen and (max-width:480px){
+	.app-login-form .login-logo{
+		max-height: 55px;
+		max-width: 160px;
+	}
+	.app-login .app-block .login-form,
+	.news-feed-block{
+		padding: 20px;
+	}
+	.app-login-form .lang-menu select,
+	.app-login-form .login-control{
+		font-size: 13px;
+		height: 40px;
+	}
+
+	.news-feed-block .news-data .news-title .ntitle{
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.news-feed-block .news-mian-head{
+		font-size: 17px;
+	}
+	.news-feed-block .news-data-list ul {
+	    padding-left: 25px;
+	}
+	.news-feed-block .news-data{
+		padding: 20px 15px;
+	}
+	.news-feed-block .news-data .news-title h5{
+		margin-bottom: 10px;
+	}
+	.app-footer{
+		padding: 15px 10px;
+	}
+	.app-footer .copy-right, .app-footer .footer-link li {
+	    font-size: 12px;
+	}
+	.app-footer .footer-link li{
+		margin: 0 3px;
+	}
+	.without-news.app-login .app-block .login-form {
+	    height: calc(100vh - 122px);
+	}
+	.app-login .normal-text,
+	.app-login-form .login-btn{
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.news-feed-block .news-data-list .news-sub-title{
+		font-size: 13px;
+		margin-bottom: 5px;
+	}
+	.news-feed-block .news-data-list ul li,
+	.news-feed-block .news-title .news-time-date{
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.with-icon:before{
+		font-size: 22px;
+		top:5px;
+	}
+	.app-login-form .main-title{
+		font-size: 18px;
+	}
+	.app-login-form .sub-title{
+		font-size: 15px;
+		margin-bottom: 13px;
+	}
+	.with-icon .login-control {
+	    padding: 0 10px 0 42px;
+	}
+	.with-icon:before{
+		font-size: 20px;
+	}
+	.app_logged_out .error_logged_out{
+		font-size: 12px;
+	}
+	.app_logged_out .error_warning, 
+	.app_logged_out .error_message {
+	    font-size: 12px;
+	    line-height: 18px;
+	}
+	.app_logged_out .error_title, 
+	.app_logged_out .error_header {
+	    font-size: 13px;
+	}
+	.app_logged_out .error_warning:before{
+		font-size: 30px;
+		line-height: 30px;
+		height: 30px;
+		bottom: auto;
+	}
+	.app_logged_out .error_warning{
+		margin-bottom: 15px;
+	}
+	.app_logged_out .error_header{
+		padding: 10px;
+	}
+	.app_logged_out .error_body{
+		padding: 10px 15px 20px;
+	}
+
+}
