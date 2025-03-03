@@ -1,0 +1,10 @@
+C:\Users\Cyriac\Desktop\Assignments\HRM\EmployeeDAL\bin\Debug\EmployeeDAL.dll
+C:\Users\Cyriac\Desktop\Assignments\HRM\EmployeeDAL\bin\Debug\EmployeeDAL.pdb
+C:\Users\Cyriac\Desktop\Assignments\HRM\EmployeeDAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Cyriac\Desktop\Assignments\HRM\EmployeeDAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Cyriac\Desktop\Assignments\HRM\EmployeeDAL\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\Users\Cyriac\Desktop\Assignments\HRM\EmployeeDAL\obj\Debug\EmployeeDAL.csproj.AssemblyReference.cache
+C:\Users\Cyriac\Desktop\Assignments\HRM\EmployeeDAL\obj\Debug\EmployeeDAL.csproj.CoreCompileInputs.cache
+C:\Users\Cyriac\Desktop\Assignments\HRM\EmployeeDAL\obj\Debug\Employee.214131F3.Up2Date
+C:\Users\Cyriac\Desktop\Assignments\HRM\EmployeeDAL\obj\Debug\EmployeeDAL.dll
+C:\Users\Cyriac\Desktop\Assignments\HRM\EmployeeDAL\obj\Debug\EmployeeDAL.pdb
