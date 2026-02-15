@@ -1,6 +1,6 @@
 # 🏢 HR Management System
 
-A **comprehensive** and **efficient** Human Resource Management System built to **streamline employee records, payroll, and administrative operations**.
+A **comprehensive** and **efficient** Human Resource Management System built to **streamline employee records and administrative operations**.
 
 ## 🚀 Features
 ✅ **Employee Management** – Add, update, and delete employee records.  
@@ -11,5 +11,5 @@ A **comprehensive** and **efficient** Human Resource Management System built to 
 ## 🛠 Technologies Used
 - **Frontend:** ASP.NET, HTML, CSS, Bootstrap, Javascript
 - **Backend:** C#
-- **Database:** MySQL 
+- **Database:** SQL Server
 
